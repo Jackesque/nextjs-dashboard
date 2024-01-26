@@ -25,7 +25,7 @@ export default function NavLinks() {
   const pathname = usePathname();
 
   return (
-    <div>
+    <div className="flex flex-col gap-2">
       {links.map((link) => {
         const LinkIcon = link.icon;
         return (
